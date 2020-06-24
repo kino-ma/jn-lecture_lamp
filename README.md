@@ -1,15 +1,15 @@
-# HTTP server
+# LAMP Server
 
-Sample HTTP Json server.
+Sample HTTP Json server with db
 
 usage:
-```
+```sh
 # build containers and start db/server
 make
 ```
 
 examples:
-```
+```sh
 $ curl 'localhost:8080/?login_name=kino-ma' | jq
 {
   "name": "Seiki Makino",
