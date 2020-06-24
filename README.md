@@ -16,7 +16,7 @@ $ curl 'localhost:8080/?login_name=kino-ma' | jq
   "kg": "ONE",
   "login_name": "kino-ma"
 }
-$ curl -XPOST 'localhost:8080/user/new?name=Hoge+Fuga&kg=Foo&login_name=Bar'
+$ curl -XPOST 'localhost:8080/user/new?name=Hoge+Fuga&kg=Foo&login_name=Bar' | jq
 {
   "name": "Hoge Fuga",
   "kg": "Foo",
